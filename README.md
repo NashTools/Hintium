@@ -4,7 +4,7 @@
 
 Press a shortcut and every actionable element in the IDE lights up with a letter hint. Type the letters to click it — no mouse needed. Works across the entire IDE, not just the editor.
 
----
+![Demo](img/demo.gif)
 
 ## Features
 
