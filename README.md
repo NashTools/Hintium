@@ -1,4 +1,4 @@
-# Hintium <picture><source media="(prefers-color-scheme: dark)" srcset="img/icon_header_dark.svg"><source media="(prefers-color-scheme: light)" srcset="img/icon_header.svg"><img alt="" src="img/icon_header.svg" width="40" height="64"></picture>
+# Hintium <picture><source media="(prefers-color-scheme: dark)" srcset="img/icon_dark.svg"><source media="(prefers-color-scheme: light)" srcset="img/icon.svg"><img alt="" src="img/icon.svg" width="28" height="28"></picture>
 
 **Vimium-style keyboard hint navigation for all JetBrains IDEs.**
 
@@ -25,7 +25,7 @@ Install directly from the JetBrains Marketplace:
 
 ### Hint navigation
 
-1. Press **Ctrl+Alt+Shift+Space** to activate the overlay.
+1. Press the activation shortcut to show the overlay (default: **Ctrl+Alt+Shift+Space**, customizable in **Settings** > **Keymap**).
 2. Letter hints appear on all actionable UI elements.
 3. Type the hint letters to activate that element. Matched characters highlight as you type.
 4. Press **Escape** or the activation shortcut again to dismiss.
@@ -62,3 +62,7 @@ All settings are under **Settings** > **Tools** > **Hintium**:
 Works with **all JetBrains IDEs** — IntelliJ IDEA, WebStorm, PyCharm, GoLand, CLion, Rider, RubyMine, DataGrip, Android Studio, and others.
 
 **Requirements:** Java 17 &bull; IntelliJ Platform 2024.3+
+
+## Feedback
+
+Found a bug or have a feature request? [Open an issue](https://github.com/NashTools/Hintium/issues).
