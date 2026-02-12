@@ -1,4 +1,4 @@
-# Hintium <picture><source media="(prefers-color-scheme: dark)" srcset="img/icon_header_dark.svg"><source media="(prefers-color-scheme: light)" srcset="img/icon_header.svg"><img alt="" src="img/icon_header.svg" width="40" height="56"></picture>
+# Hintium <picture><source media="(prefers-color-scheme: dark)" srcset="img/icon_header_dark.svg"><source media="(prefers-color-scheme: light)" srcset="img/icon_header.svg"><img alt="" src="img/icon_header.svg" width="40" height="64"></picture>
 
 **Vimium-style keyboard hint navigation for all JetBrains IDEs.**
 
