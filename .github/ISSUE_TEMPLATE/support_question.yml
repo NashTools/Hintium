@@ -1,0 +1,24 @@
+name: Support Question
+description: Ask a question about using Hintium
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help with Hintium? Check the [README](https://github.com/NashTools/Hintium#readme) first — your answer might already be there.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What do you need help with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any additional context — IDE version, what you've already tried, screenshots, etc.
+    validations:
+      required: false

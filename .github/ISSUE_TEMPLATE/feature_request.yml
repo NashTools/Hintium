@@ -1,0 +1,40 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for Hintium? We'd love to hear it. Please describe your feature request below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: A clear, concise description of the feature you'd like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: What problem does this solve? How would you use it in your workflow?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-behavior
+    attributes:
+      label: Proposed Behavior
+      description: How should the feature work? Be as specific as you can.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you found any workarounds or alternative approaches?
+    validations:
+      required: false
